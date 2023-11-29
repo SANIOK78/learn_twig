@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products</title>
+    </head>
+
+    <body>
+        <h1>Nos produits :</h1>
+        <ul>
+            {% for product in produits %}
+                <li>{{ product }}</li>
+
+            {% endfor %}
+
+            {{ dump(produits) }};
+        
+        </ul>
+    </body>
+</html>
