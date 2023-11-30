@@ -1,0 +1,12 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    {{ parent() }} - A propos
+{% endblock %}
+
+{% block content %} 
+    <p style="margin:30px 20px">
+        Pour plus de détails envoyer nous 
+        <a href="mailto:{{contactEmail}}">un email</a>
+    </p>
+{% endblock %}
